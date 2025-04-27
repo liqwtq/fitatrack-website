@@ -1,1 +1,2 @@
-web:uvicorn back:app --port 8000 --reload
+web:
+  command: "uvicorn back:app --port 8000 --reload"
